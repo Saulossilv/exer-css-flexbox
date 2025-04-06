@@ -1,0 +1,45 @@
+Observações e correções exercício Profile card:
+
+Html: usar mais tags semânticas, no caso usei o body para a estiliza-
+ção, porém na resolução foi usada o main para com uma class= container,
+para fazer a estilização 
+Usou class=age para o span 26 dando controle a mais para estilização
+não comprometendo a tag p para estilização do texto
+usou uma ul em vez de div, dando a class para li conseguindo estilizar
+todos e manipulando a flexbox de forma igual com li como lista
+
+reset.css: 
+
+diferença de como foi usado ul, aqui foi dado list-style: none; para
+não aparecer os pontos pretos que aparecem por padrão
+
+variables.css:
+
+foi adicionado uma variável --card-color com uma cor acizentada para
+o card, mas não vi como foi usada no código
+
+body: font family em todo o arquivo, font-size: definido para todo
+o arquivo
+
+hr: mais em cima
+
+container: height: 100% e display align-items e justify-content
+mais eficiente
+
+card: gap:25px para distanciar os elementos, width e height em px
+para deixar em formato estatico, sendo assim, não precisando ter
+resposividade
+
+profile-info: mais otimizado e menor, falta ter conhecimento de não
+usar estratégias desncessárias
+
+img: margin-top para ajustar o card
+
+profile-socials justify-content: space-evenly
+
+seleção de textos para adicionar peso 700
+
+seleção de textos para adicionar cor dos textos cinza
+
+em resumo não deveria ter usado valores variaveis para o card, usar
+mais tags semânticas, e usar o flexbox de forma otimizada

@@ -1,0 +1,50 @@
+Correção exercicio 2: 
+
+Html: foi usada um menor número de tags, e que são mais semãnticas, 
+h2 é mais semântica que o p, e tem uma nome de classe melhor na 
+questão de indentificação a tag picture eu não consegui indentifcar 
+por que foi usada, entretanto abaixo há uma explicação do porque.
+
+nota correção exercício:
+
+- **Por que foi usada a tag picture?**
+    
+    No desafio, o design possui dois arquivos svg com a linha 
+    divisórias. Uma para versão desktop e outra para mobile. 
+    Essa tag é usada para facilitar o carregamento do 
+    arquivo apenas na resolução apontada no atributo media.
+
+também foi usado a tag button como apontado anteriormente na correção
+feita pelo GPT, sendo mais semâmtico
+
+CSS:
+
+mais uma vez usando a formatação no corpo inteiro do arquivo, como
+no exercício anterior, acredito então que pelo padrão seja uma boa
+pratíca, como não há tantas classes igual a minha resolução já foi
+aplicado fisplay e min-height acredito que seja para definir altura
+minima de 100vh
+
+eu optei por usar position relative o que não tem aqui
+
+.card: parecido mas aqui é definido um max width de 450px
+
+.advice-title: não foi escrito em caps lock foi aplicado o text-trasnform 
+uppercase o que realmente é mais simples, meu letter spacing é menor
+mas alcançei resultado parecido ao design proposto
+
+usado na img width: 100%, acredito que seja para se adaptar ao tamanho
+do pai que seria o card
+
+o hover no botão é parecido, mas é mais enxuto e menos verboso, 
+acredito que seja uma forma mais eficiente de escrever, tambem
+foi usado o transformY no botão, não sabia que poderia fazer dessa 
+forma opetei por fazer de forma mais complicada
+
+explicação do porque do transform exercicio correção:
+
+- Por que foi usado o transform?
+    
+    O transform: translateY(85%); foi adicionado para centralizar o
+    botão na tela usando o eixo Y. Também é possível fazer o mesmo 
+    com utilizando o position, mas daria um pouco mais de trabalho.
