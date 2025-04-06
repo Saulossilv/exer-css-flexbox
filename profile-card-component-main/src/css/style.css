@@ -10,10 +10,8 @@ body {
 }
 
 .card-profile{
-    width: 90%;
-    height: 55%;
-    max-width: 22rem;
-    max-height: 22rem;
+    width: 330px;
+    height: 350px;
     background-color: white;
     display: flex;
     border-radius: 1rem;
