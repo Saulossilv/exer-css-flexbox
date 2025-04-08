@@ -1,0 +1,40 @@
+Correção aula: resoulução exercício menu com flexbox
+
+assistindo a aula, o instrutor comento que prefer usar classe mesmo
+nas tags semânticas para quando for manipula-las não ter um nível mai-
+or de especificidade que o css tem para id, seletores, classes, optando
+assim por definir uma classe header a tag Header, a estrutura ficou bem
+parecida no Html, com mudança de que ele colocou a tag a dentro da 
+tag li, e eu fiz o contrario, e em vez de um button ele fez a estrutura
+li e tag a e colocou uma classe chamada button, ao meu ver essa solu-
+ção é melhor para manipular principalmente o flex-direction e espaça-
+mento de gap, a diferença do meu reset para o zero é que ele colocou
+na ul list-style-type, e eu list-style, os dois tem none, mas sincera-
+mente não sei a diferença, e a tag a com text-decoration: none e color
+padrão perta, eu fiz isso só que no próprio seletor no arquivo style
+eu reconheço que a resolução dele é melhor pois não repete o código, e 
+aplicar aos dois ao mesmo tempo, quando ele selecionou a fonte escolheu
+somente as que havia no figma que era 300, 400, e 700, eu peguei todas
+talvez seja para ensinar sobre a seleção de peso da fonte mas sinceramente
+é uma opção pessoal minha pegar todos os pesos para ter mais opções,
+ele importou usando link no html e a font family no style css, eu prefiro
+importar diretamente no style, ele usou 62.5% no html inteiro para 
+transformar o rem para 10px em vez de 16px apontando que fica mais
+facil para trabalhar com o rem, ele arredonda pixels, diz que não
+faz muita diferença um pixel ou dois, eu concordo, não sabia que o
+transition poderia ser contabilizado em segundos usei no meu milise-
+gundos, e usou ease-in-out para mais suavidade na transição, eu
+não havia percebido que po padrão fica mais grudado o botão ele
+colocou um padding para separar um pouco mais, ele aconselhou no ponto
+que quebra para o mobile não seguir o figma, mas sim o nosso senso critico
+para testar e ver quando é necessário quebrar para o mobile, eu usei
+a metrica do figma de 375px vou trocar para 650px como na correção
+fica melhor
+
+no mobile por ter uma estrutura mais eficiente de css, ele organizou
+o layout de forma muito mais simples, futuramente e com prática
+e com a análise dessa correção irei tentar otimizar minha estrutura 
+css, ele definiu o valor do espaçamento do backgound color ajustando
+o padding em vez de modificar o tamanho do elemento, não havia pensado
+nisso, mostrou uma extensão responsive viewer para ver como fica em
+celulares
